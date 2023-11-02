@@ -1636,6 +1636,14 @@ header  nav .menu-bar .links a {
   color: white;
   font-size: 50px;
   margin: 0 0 20px;
+  transition: var(--mainTransation);
+  -webkit-transition: var(--mainTransation);
+  -moz-transition: var(--mainTransation);
+  -ms-transition: var(--mainTransation);
+  -o-transition: var(--mainTransation);
+}
+.footer .box h3:hover {
+    color: var(--mainColor);
 }
 .footer .box .social {
   display: flex;
@@ -1749,11 +1757,17 @@ header  nav .menu-bar .links a {
     }
 }       
 .footer .copyright {
-  padding: 25px 0;
-  text-align: center;
-  color: white;
-  margin: 50px 0 0;
-  border-top: 1px solid #444;
+    padding: 25px 0;
+    font-size: 17px;
+    border-top: 1px solid #444;
+    text-align: center;
+    color: white;
+    margin: 50px 0 0;
+}
+.footer .copyright span {
+    color: var(--mainColor);
+    font-size: 16px;
+    text-transform: uppercase;
 }
 /* End Footer */
 /* start animation  */
