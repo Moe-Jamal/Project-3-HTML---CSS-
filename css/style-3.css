@@ -189,7 +189,7 @@ header  nav > ul > li > a {
 }
 @media (max-width: 767px) {
     header  nav > ul > li > a {
-        padding: 12px;
+        padding: 8px;
         font-size: 15px;
         height: 40px;
     }
