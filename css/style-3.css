@@ -65,7 +65,7 @@ body {
 }
 @media (max-width: 767px) {
     .main-title {
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 .main-title::before,
